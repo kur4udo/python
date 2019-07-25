@@ -15,7 +15,7 @@ if len(sys.argv) >= 4:
     action = sys.argv[3]
 
 tgtfdb = mysql.connector.connect(
-    host = "",
+    host = "tgtfdb.ccob0gahnz8m.eu-west-1.rds.amazonaws.com",
     port="3306",
     user = "user",
     passwd = "user12345678"
